@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WAI YAN — PORTFOLIO</title>
+  <link rel="icon" type="image/png" href="images/my logo/Logo W.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&family=Barlow:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- SCROLL PROGRESS BAR -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-img">
+      <img src="Logo W.png" alt="logo">
+    <div class="nav-logo">WAI<span>.</span>YAN</div>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- HERO -->
+  <div class="hero-flex" id="heroSection">
+
+    <div class="particles">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <section class="hero">
+
+      <div class="hero-sub">
+        <p class="hero-label">MY PORTFOLIO</p>
+        <h1 class="hero-headline">UI / UX <br>Designer &<br>
+          <span class="web">Web Designer</span>
+        </h1>
+        <p class="hero-desc">Creative designer focused on branding,
+          digital experiences, and modern visuals inspired by
+          luxury minimal layouts and bold typography aesthetics.</p>
+        <a href="#about" class="btn magnetic-btn">START</a>
+      </div>
+
+      <div class="hero-image" id="heroImage">
+        <div class="hero-img-frame">
+          <div class="frame-bar">
+            <span class="fdot red"></span>
+            <span class="fdot yellow"></span>
+            <span class="fdot green"></span>
+            <span class="frame-title">workspace.js</span>
+          </div>
+          <img src="coding.jpg" alt="Coding workspace">
+          <div class="frame-glow"></div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Web Design</span><span class="bullet">✦</span>
+      <span>Graphic Design</span><span class="bullet">✦</span>
+      <span>UI / UX</span><span class="bullet">✦</span>
+      <span>Branding</span><span class="bullet">✦</span>
+      <span>Figma</span><span class="bullet">✦</span>
+      <span>Photoshop</span><span class="bullet">✦</span>
+      <span>Illustrator</span><span class="bullet">✦</span>
+      <span>HTML &amp; CSS</span><span class="bullet">✦</span>
+      <span>JavaScript</span><span class="bullet">✦</span>
+      <span>Web Design</span><span class="bullet">✦</span>
+      <span>Graphic Design</span><span class="bullet">✦</span>
+      <span>UI / UX</span><span class="bullet">✦</span>
+      <span>Branding</span><span class="bullet">✦</span>
+      <span>Figma</span><span class="bullet">✦</span>
+      <span>Photoshop</span><span class="bullet">✦</span>
+      <span>Illustrator</span><span class="bullet">✦</span>
+      <span>HTML &amp; CSS</span><span class="bullet">✦</span>
+      <span>JavaScript</span><span class="bullet">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="home">
+      <div class="about-image" data-reveal="left">
+        <img src="My Pic.png" alt="Wai Yan">
+      </div>
+      <div class="about-text" data-reveal="right" data-delay="150">
+        <span class="about-title">ABOUT ME</span>
+        <h1>WAI YAN <span>OO</span></h1>
+        <p>I'm <strong>Wai Yan Oo</strong>. I am studying in the Web Creator course at <strong>Tokyo Future AI &amp; IT
+            College</strong>.<br>
+          I am interested in web design, UI/UX, and front-end development, and I am passionate about creating
+          user-friendly, visually appealing, and responsive websites.<br>
+          I actively learn the latest web technologies and design tools, including <strong>HTML, CSS, and
+            JavaScript</strong>.</p>
+        <div class="about-boxes">
+          <div class="box" data-reveal="up" data-delay="300">
+            <h3 data-count="2" data-suffix="+">2+</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="box" data-reveal="up" data-delay="420">
+            <h3 data-count="6" data-suffix="+">6+</h3>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section class="tools-section" id="skills">
+    <div class="section-label" data-reveal="up">What I Use</div>
+    <h2 class="section-title" data-reveal="up" data-delay="80">TOOLS &amp; <span class="accent">TECH</span></h2>
+    <div class="tools-grid">
+
+      <div class="flip-scene" data-card data-reveal="scale" data-delay="0" onclick="flipCard(this)">
+        <div class="flip-card">
+          <div class="flip-front">
+            <img src="PS.png" alt="Photoshop">
+            <span>Photoshop</span>
+          </div>
+          <div class="flip-back">Photoshop refers to the act of digitally altering or manipulating a photograph or digital image using editing software.</div>
+        </div>
+      </div>
+
+      <div class="flip-scene" data-card data-reveal="scale" data-delay="80" onclick="flipCard(this)">
+        <div class="flip-card">
+          <div class="flip-front">
+            <img src="AI.png" alt="Illustrator">
+            <span>Illustrator</span>
+          </div>
+          <div class="flip-back">An illustrator is a visual artist who creates drawings, paintings, or digital images to clarify, tell a story, or visually enhance a piece of text or a concept.</div>
+        </div>
+      </div>
+
+      <div class="flip-scene" data-card data-reveal="scale" data-delay="160" onclick="flipCard(this)">
+        <div class="flip-card">
+          <div class="flip-front">
+            <img src="Figma.png" alt="Figma">
+            <span>Figma</span>
+          </div>
+          <div class="flip-back">Figma is an industry-standard, cloud-based design and collaboration tool primarily used for UI (User Interface) and UX (User Experience) design.</div>
+        </div>
+      </div>
+
+      <div class="flip-scene" data-card data-reveal="scale" data-delay="240" onclick="flipCard(this)">
+        <div class="flip-card">
+          <div class="flip-front">
+            <img src="html.png" alt="HTML">
+            <span>HTML</span>
+          </div>
+          <div class="flip-back">HTML (HyperText Markup Language) is the standard language used to create and structure the content of web pages.</div>
+        </div>
+      </div>
+
+      <div class="flip-scene" data-card data-reveal="scale" data-delay="320" onclick="flipCard(this)">
+        <div class="flip-card">
+         <div class="flip-front">
+            <img src="css-3.png" alt="CSS">
+            <span>CSS</span>
+          </div>
+          <div class="flip-back">CSS (Cascading Style Sheets) is the language used to style and design the visual presentation of a website.</div>
+        </div>
+      </div>
+
+      <div class="flip-scene" data-card data-reveal="scale" data-delay="400" onclick="flipCard(this)">
+        <div class="flip-card">
+        <div class="flip-front">
+            <img src="JS.png" alt="JavaScript">
+            <span>JavaScript</span>
+          </div>
+          <div class="flip-back">JavaScript (JS) is a high-level, versatile programming language primarily used to add interactivity and dynamic behavior to websites.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-right" data-reveal="up" data-delay="100">
+      <h3>Technical Skills</h3>
+      <div class="skill-item">
+        <div class="skill-label"><span>Photoshop</span><span>70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>Illustrator</span><span>85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>Figma</span><span>60%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>HTML &amp; CSS</span><span>50%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>JavaScript (Learning)</span><span>20%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="20"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>PHP (Learning)</span><span>20%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="20"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label" data-reveal="up">My Work</div>
+    <h2 class="section-title" data-reveal="up" data-delay="80">PROJECT <span class="accent">GALLERY</span></h2>
+    <div class="projects-grid">
+
+      <div class="project-card" data-reveal="up" data-delay="0" onclick="openProjectModal('website')">
+        <div class="project-thumb web">
+          🌍<span class="thumb-label">Web</span>
+          <div class="project-thumb-overlay">VIEW</div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Web Design</div>
+          <div class="project-name">Website</div>
+          <p class="project-desc">Responsive websites designed for automotive shops and restaurants with clean,
+            user-friendly layouts and modern aesthetics.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal="up" data-delay="150" onclick="openProjectModal('design')">
+        <div class="project-thumb brand">
+          🎨<span class="thumb-label">Design</span>
+          <div class="project-thumb-overlay">VIEW</div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Graphic Design</div>
+          <div class="project-name">Design</div>
+          <p class="project-desc">Brand identity, posters, business cards, and visual concepts crafted in
+            Photoshop, Illustrator, and Figma.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal="up" data-delay="300" onclick="openProjectModal('music')">
+        <div class="project-thumb ui">
+          📱<span class="thumb-label">UI/UX</span>
+          <div class="project-thumb-overlay">VIEW</div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">UI Design</div>
+          <div class="project-name">Music App UI</div>
+          <p class="project-desc">Full mobile music streaming app UI design with home screen, library, search, now
+            playing, and artist pages.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="section-label" data-reveal="up">Get In Touch</div>
+    <h2 class="section-title" data-reveal="up" data-delay="80">CONTACT <span class="accent">ME</span></h2>
+    <div class="contact-grid">
+
+      <div class="contact-col" data-reveal="up" data-delay="0">
+        <p class="col-label">Prefer email or a call? no prob.</p>
+        <a href="mailto:waiyanoo9518@gmail.com" class="contact-email">waiyanoo9518@gmail.com</a>
+        <p class="contact-phone">(070) 8520 0410</p>
+      </div>
+
+      <div class="contact-col" data-reveal="up" data-delay="100">
+        <p class="col-label">Location</p>
+        <address>
+          <p>〒116-0002<br>Coliving House Machiya 4<br>
+            5-42-15 Arakawa, Arakawa-ku, <br>Tokyo, Japan</p>
+        </address>
+      </div>
+
+      <div class="contact-col" data-reveal="up" data-delay="200">
+        <p class="col-label">Provided by<br><strong class="myname">Wai Yan Oo</strong></p>
+        <p class="col-detail">Course: Web Creator</p>
+      </div>
+
+      <div class="contact-col" data-reveal="up" data-delay="300">
+        <p class="col-label">Lot more to see</p>
+        <ul class="social-links">
+          <li><a href="https://www.instagram.com/enko_085/">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100075899739914">Facebook</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">X</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>COPYRIGHT &copy; 2026 <span>WAI YAN OO</span> — All Rights Reserved</p>
+  </footer>
+
+  <!-- PROJECT GALLERY MODAL -->
+  <div class="proj-modal" id="projModal" onclick="closeProjModalOutside(event)">
+    <div class="proj-modal-box">
+      <div class="proj-modal-header">
+        <h2 class="proj-modal-title" id="projModalTitle"></h2>
+        <button class="proj-modal-close" onclick="closeProjModal()">&times;</button>
+      </div>
+      <div class="proj-tabs" id="projTabs"></div>
+      <div class="proj-img-grid" id="projImgGrid"></div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="proj-lightbox" id="projLightbox" onclick="closeProjLightboxOutside(event)">
+    <button class="plb-arrow plb-prev" onclick="lbNavProj(-1)">&#8592;</button>
+    <img id="plbImg" src="" alt="">
+    <button class="plb-arrow plb-next" onclick="lbNavProj(1)">&#8594;</button>
+    <button class="plb-close" onclick="closeProjLightbox()">&times;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
