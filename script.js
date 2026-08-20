@@ -73,7 +73,6 @@ const PROJECT_DATA = {
           '人物.png',
           '人物1.png',
           '背景.png',
-          '景1.png',
           '背景2.png',
           '背景3.png',
           '背景4.png',
