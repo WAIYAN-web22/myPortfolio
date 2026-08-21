@@ -117,7 +117,7 @@ const PROJECT_DATA = {
         links: [
           { label: 'Restaurant Site', url: 'programming/Restaurant/index.html' },
           { label: 'Wedding Site',    url: 'programming/Wedding/index.html'    },
-          { label: 'Capyzou Site',    url: 'waiyan-web22.github.io/capyzou/'    },
+          { label: 'Capyzou Site',    url: 'https://waiyan-web22.github.io/capyzou/'    },
         ]
       }
     ]
