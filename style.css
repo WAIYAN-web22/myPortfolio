@@ -458,6 +458,7 @@ section {
 .about-image img {
   width: 650px;
   display: block;
+  border-radius: 50px;
 }
 
 .about-text {
